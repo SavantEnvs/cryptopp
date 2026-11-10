@@ -1,0 +1,9 @@
+project: savantenvs/cryptopp
+target: fuzz_ber_keys
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_ber_keys/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_ber_keys
+    libfuzzer: true
+    timeout: 10

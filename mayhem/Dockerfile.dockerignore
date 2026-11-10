@@ -1,0 +1,12 @@
+# Keep stale local build products out of the context (the full repo incl. .git IS copied).
+**/*.o
+**/*.a
+**/*.so
+cryptest.exe
+GNUmakefile.deps
+adhoc.cpp
+mayhem/out/
+mayhem/build-test/
+.DS_Store
+**/*.swp
+*~

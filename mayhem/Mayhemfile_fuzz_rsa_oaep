@@ -1,0 +1,6 @@
+project: savantenvs/cryptopp
+target: fuzz_rsa_oaep
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_rsa_oaep
+    libfuzzer: true
+    timeout: 10

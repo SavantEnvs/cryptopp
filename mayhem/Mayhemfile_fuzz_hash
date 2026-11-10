@@ -1,0 +1,6 @@
+project: savantenvs/cryptopp
+target: fuzz_hash
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_hash
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,6 @@
+project: savantenvs/cryptopp
+target: fuzz_sig_verify
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_sig_verify
+    libfuzzer: true
+    timeout: 10

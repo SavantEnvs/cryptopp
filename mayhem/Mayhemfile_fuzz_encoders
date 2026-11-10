@@ -1,0 +1,6 @@
+project: savantenvs/cryptopp
+target: fuzz_encoders
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_encoders
+    libfuzzer: true
+    timeout: 10
